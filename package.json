@@ -1,0 +1,35 @@
+{
+  "name": "grunt-travis-stats",
+  "description": "Gets travis build stats for your project",
+  "version": "0.0.1",
+  "homepage": "https://github.com/pwmckenna/grunt-travis-stats",
+  "author": {
+    "name": "Patrick Williams",
+    "email": "pwmckenna@gmail.com",
+    "url": "http://pwmckenna.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pwmckenna/grunt-travis-stats.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pwmckenna/grunt-travis-stats/issues"
+  },
+  "keywords": [
+    "grunt",
+    "travis",
+    "travis-ci"
+  ],
+  "dependencies": {
+    "colors": "^1.0.3",
+    "github": "^0.2.2",
+    "inquirer": "^0.8.0",
+    "lodash": "^2.4.1",
+    "moment": "^2.8.3",
+    "q": "^1.0.1",
+    "travis-ci": "^2.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4"
+  }
+}
